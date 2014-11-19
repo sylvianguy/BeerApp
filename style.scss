@@ -1,0 +1,586 @@
+@import 'starter';
+$button-color: #B1772F;
+$button-fill: #DDB27E;
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('http://inspirationhut.net/wp-content/uploads/2012/11/Grungy-Paper-Texture-3.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-family: 'Lato', sans-serif;
+	
+
+}
+
+header {    
+	width: 80%;
+	margin: 0 auto;
+}
+
+.treasureBox {
+	width: 34%;
+	display: inline-block;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+header h4{
+	width: 39%;
+	display: inline;
+	position: absolute;
+	top: 200px;
+    left: 600px;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: left;
+    color: #3D3D3D;
+    line-height: 40px;
+    span {
+	font-weight: 400;
+	font-size: 40px;
+    }
+}
+
+.startButton {
+	cursor: pointer;
+	margin-left: 468px;
+	padding-bottom: 55px;
+}	
+
+button {
+	background: $button-color;
+	border: none;
+	padding: 15px;
+	color: #eee;
+	font-size: 27px;
+	border-radius: 5px;
+	outline-style: none;
+	// font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+
+	&:hover {
+		background: #A16C2B;
+	}
+}
+
+.step2 {
+	padding-top: 10px;
+}
+
+.startbutton input[type = submit]{ 
+	-moz-box-shadow: 0 1px 5px #916127;
+    -webkit-box-shadow: 0 1px 5px #916127;
+    box-shadow: 0 1px 5px #916127;
+}
+
+    	
+h1 {
+	text-align: center;
+	font-family: 'Pirata One', cursive;
+	font-weight: 100;
+	letter-spacing: 15px;
+	font-size: 80px;
+	margin-top: 30px;
+	color: #B1772F;
+	text-shadow: 5px 5px 0px #000, 7px 7px 0px #B1772F;
+}
+
+h2 {
+	font-size: 29px;
+	font-weight: 200;
+}
+
+h3 {
+	font-size: 45px;
+	margin-bottom: 10px;
+	font-weight: 200;
+	// font-family: 'Fjalla One', sans-serif;
+}
+
+h3.second {
+	margin-bottom: 0;
+}
+
+
+input[type = radio],
+input[type = checkbox] {
+	visibility: hidden;
+
+}
+
+
+
+input[type = submit] {
+	padding: 10px;
+	margin: 60px;
+	color: #eee;
+	background: $button-color;
+	padding: 15px;
+	font-size: 25px;
+	border-radius: 5px;
+	border: none;
+	outline-style: none;
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	&:hover {
+		background: #A16C2B;
+		cursor: poiner;
+	}
+}
+
+
+input[type = submit].refreshButton {
+	display: none;
+}
+
+.pirate {
+	width: 100px;
+	position: absolute;
+	top: -6px;
+	left: 322px;
+	display: none;
+}
+
+.octPirate {
+	width: 300px;
+}
+
+form {
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 5px;
+	position: relative;
+}
+
+
+.break {
+	width: 64%;
+	// fill: #CA8E16;
+	margin-top: 32px;
+}
+
+.lunch {
+	width: 150px;
+	// fill: #A94423;
+	margin-top: 5px;
+	
+}
+
+.dinner {
+	width: 67%;
+	margin-top: 10px;
+	fill: #311C0C;
+}
+
+.dessert {
+	width: 56%;
+	margin-top: 25px;
+	fill: #311C0C;
+}
+
+.beerDiv {
+	position: relative;
+	width: 33.333%;
+	float: left;
+	padding-bottom: 56px;
+	margin-top: 15px;
+}
+
+.beerBottle {
+	width: 265px;
+	fill: #311C0C;	
+}
+
+.mealDiv {
+	position: relative;
+	width: 22%;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 4%;
+	height: 200px;
+	margin: 1%;
+	margin-top: 35px;
+	background: rgba(179, 120, 41, 0.4);
+	&:hover{
+		background: $button-color;
+		cursor: pointer;
+	}
+	h4 {
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		font-size: 23px;
+		margin-top: 23px;	
+	}
+	h4.lunchTitle {
+		margin-top: 1px;
+	}
+	h4.dinnerTitle {
+		margin-top: 19px;
+	}
+
+
+}
+
+
+svg.break,
+svg.lunch,
+svg.dinner,
+svg.dessert {
+	margin-left: -14px;
+	fill: #311C0C;
+}
+
+
+.firstMeal,
+.secondMeal,
+.thirdMeal,
+.fourthMeal {
+	position: absolute;
+	top: 142px;
+	left: 40px;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+
+
+.secondMeal,
+.thirdMeal {
+    left: 56px;
+}
+
+
+
+.red {
+	background: $button-fill;
+	width: 105px;
+	padding: 4px 0 7px 0;
+	height: 59px;
+	border-radius: 6px;
+	&:hover {
+		background: $button-color;
+		cursor: pointer;
+	}
+	span {
+		position: absolute;
+		top: 13px;
+		left: 19px;
+		font-size: 25px;
+		text-transform: uppercase;
+    }
+}
+
+.blue {
+	font-size: 30px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	&:hover {
+		cursor: pointer; 
+	}
+
+}
+
+
+span.who {
+	position: absolute;
+	top: 3px;
+	left: 0;
+	line-height: 27px;
+}
+
+.firstBeer {
+	position: absolute;
+	top: 128px;
+	left: 96px;
+}
+
+
+.container {
+   max-width: 900px;
+   // width: 80%;
+   margin: 0 auto;
+   text-align: center;  
+   z-index: 100;
+   position: relative;
+}
+
+.recipeContainer {
+	width: 80%;
+}
+
+
+.beerItem {
+	background: rgba(255, 255, 255, 0.5);
+	padding-top: 40px;
+	width: 44%;
+	height: 338px;
+	margin: 3%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+	border-radius: 7px;
+}
+
+.beerItem:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+	height: 0;
+}
+
+.innerBeerItem {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;	
+}
+
+
+.recipeImg {
+	width: 100%;
+}
+
+
+.recipeName {
+	width: 55%;
+	display: inline-block;
+	font-size: 26px;
+	text-align: left;
+	margin-left: 22px;
+}
+
+a {
+	color: black;
+	&:visited {
+		color: black;
+		text-decoration: none;
+	}
+	
+}
+
+.chooseBeer,
+.chooseMeal {
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.beerButton,
+.mealButton {
+	margin-top: 20px;
+}
+
+
+
+
+//MEDIA QUERY 
+
+	/* Portrait tablet and small desktops */
+	@media (max-width: 1200px) {
+		header h4 {
+			position: absolute;
+			width: 29%;
+			top: 268px;
+			left: 600px;
+		}
+
+		.startButton {
+			margin-left: 479px;
+		}
+	}	
+
+	@media (max-width: 1180px) {
+		.startButton {
+			margin-left: 480px;
+		}
+	}
+	
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 1140px) {
+		header h4 {
+			left: 535px;
+		}
+		.startButton {
+			margin-left: 432px;
+		}
+	}
+	
+	/* Landscape phones and down */
+	@media (max-width: 900px) {
+		header h4 {
+			font-size: 21px;
+		}
+		button {
+			padding: 9px;
+			font-size: 24px;
+		}
+		.firstBeer {
+			left: 81px;
+		}
+		.beerDiv {
+			width: 31.333%;
+		}
+		.mealDiv {
+			width: 33%;
+		}
+		.break {
+			width: 52%;
+			margin-top: 13px;
+		}
+		.firstMeal {
+			left: 23%;
+		}
+		.fourthMeal {
+			left: 94px;
+		}
+		.secondMeal, .thirdMeal {
+			left: 93px;
+		}
+		.dinner {
+			width: 54%;
+			margin-top: -1px;
+		}
+		.dessert {
+			width: 43%;
+			margin-top: 18px;
+		}
+		// svg.dessert {
+		// 	margin-top: 18px;
+		// }
+	}
+
+	@media (max-width: 885px) {
+		.treasureBox {
+			margin-left: 4px;
+		}
+		header h4 {
+			left: 439px;
+		}
+		.startButton {
+			margin-left: 355px;
+		}
+	}
+
+	@media (max-width: 790px) {
+		.secondMeal,
+		.thirdMeal {
+			left: 80px;
+		}
+		.fourthMeal {
+			left: 77px;
+		}
+		.break {
+			margin-top: 11%;
+		}
+	}
+
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px) {
+		.treasureBox {
+			margin-left: -6px;
+		}
+		header h4 {
+			left: 405px;
+		}
+		.startButton {
+			margin-left: 52%;
+		}
+	}
+
+	@media (max-width: 750px) {
+		.treasureBox {
+			margin-left: -7%;
+		}
+		header h4 {
+		    left: 373px;
+		}
+		.startButton {
+			margin-left: 290px;
+			margin-top: 21px;
+		}
+	}
+
+	@media (max-width: 740px) {
+		.dessert {
+			margin-top: 22px;
+			width: 44%;
+		}
+	}
+
+
+	@media (max-width: 681px) {
+		header h4 {
+			top: 389px;
+		}
+		.treasureBox {
+			margin-left: -2%;
+		}
+	}
+
+	@media (max-width: 645px) {
+		.octPirate {
+			width: 254px;
+		}
+		header h4 {
+			left: 315px;
+		}
+		.startButton {
+			margin-left: 240px;
+			margin-top: 71px;
+		}
+	}
+
+	@media (max-width: 600px) {
+		.octPirate {
+			width: 258px;
+		}
+		header h4 {
+			position: static;
+			display: block;
+			margin: 0 auto;
+			width: 84%;
+			text-align: center;
+			margin-top: 23px;
+			span {
+				font-size: 33px;
+			}
+		}
+		.startButton {
+			margin-left: 143px;
+			margin-top: 22px;
+		}
+		button {
+			font-size: 18px;
+		}	
+		.treasureBox {
+			margin-left: 17%;
+		}	
+	}
+
+	/* Portrait tablet and small desktops */
+	@media (max-width: 940px) {
+	}
+	
+	
+	/* Landscape phones and down */
+	@media (max-width: 480px) {
+	}
+
+
+
+

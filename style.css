@@ -1,0 +1,726 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("http://inspirationhut.net/wp-content/uploads/2012/11/Grungy-Paper-Texture-3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.treasureBox {
+  width: 34%;
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+header h4 {
+  width: 39%;
+  display: inline;
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  font-weight: 400;
+  font-size: 28px;
+  text-align: left;
+  color: #3D3D3D;
+  line-height: 40px;
+}
+header h4 span {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.startButton {
+  cursor: pointer;
+  margin-left: 468px;
+  padding-bottom: 55px;
+}
+
+button {
+  background: #b1772f;
+  border: none;
+  padding: 15px;
+  color: #eee;
+  font-size: 27px;
+  border-radius: 5px;
+  outline-style: none;
+  text-transform: uppercase;
+}
+button:hover {
+  background: #A16C2B;
+}
+
+.step2 {
+  padding-top: 10px;
+}
+
+.startbutton input[type=submit] {
+  -moz-box-shadow: 0 1px 5px #916127;
+  -webkit-box-shadow: 0 1px 5px #916127;
+  box-shadow: 0 1px 5px #916127;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  font-weight: 100;
+  letter-spacing: 15px;
+  font-size: 80px;
+  margin-top: 30px;
+  color: #B1772F;
+  text-shadow: 5px 5px 0px #000, 7px 7px 0px #B1772F;
+}
+
+h2 {
+  font-size: 29px;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+h3.second {
+  margin-bottom: 0;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  visibility: hidden;
+}
+
+input[type=submit] {
+  padding: 10px;
+  margin: 60px;
+  color: #eee;
+  background: #b1772f;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 5px;
+  border: none;
+  outline-style: none;
+  font-family: 'Dosis', sans-serif;
+  text-transform: uppercase;
+}
+input[type=submit]:hover {
+  background: #A16C2B;
+  cursor: poiner;
+}
+
+input[type=submit].refreshButton {
+  display: none;
+}
+
+.pirate {
+  width: 100px;
+  position: absolute;
+  top: -6px;
+  left: 322px;
+  display: none;
+}
+
+.octPirate {
+  width: 300px;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  position: relative;
+}
+
+.break {
+  width: 64%;
+  margin-top: 32px;
+}
+
+.lunch {
+  width: 150px;
+  margin-top: 5px;
+}
+
+.dinner {
+  width: 67%;
+  margin-top: 10px;
+  fill: #311C0C;
+}
+
+.dessert {
+  width: 56%;
+  margin-top: 25px;
+  fill: #311C0C;
+}
+
+.beerDiv {
+  position: relative;
+  width: 33.333%;
+  float: left;
+  padding-bottom: 56px;
+  margin-top: 15px;
+}
+
+.beerBottle {
+  width: 265px;
+  fill: #311C0C;
+}
+
+.mealDiv {
+  position: relative;
+  width: 22%;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 4%;
+  height: 200px;
+  margin: 1%;
+  margin-top: 35px;
+  background: rgba(179, 120, 41, 0.4);
+}
+.mealDiv:hover {
+  background: #b1772f;
+  cursor: pointer;
+}
+.mealDiv h4 {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  margin-top: 23px;
+}
+.mealDiv h4.lunchTitle {
+  margin-top: 1px;
+}
+.mealDiv h4.dinnerTitle {
+  margin-top: 19px;
+}
+
+svg.break,
+svg.lunch,
+svg.dinner,
+svg.dessert {
+  margin-left: -14px;
+  fill: #311C0C;
+}
+
+.firstMeal,
+.secondMeal,
+.thirdMeal,
+.fourthMeal {
+  position: absolute;
+  top: 142px;
+  left: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.secondMeal,
+.thirdMeal {
+  left: 56px;
+}
+
+.red {
+  background: #ddb27e;
+  width: 105px;
+  padding: 4px 0 7px 0;
+  height: 59px;
+  border-radius: 6px;
+}
+.red:hover {
+  background: #b1772f;
+  cursor: pointer;
+}
+.red span {
+  position: absolute;
+  top: 13px;
+  left: 19px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.blue {
+  font-size: 30px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.blue:hover {
+  cursor: pointer;
+}
+
+span.who {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  line-height: 27px;
+}
+
+.firstBeer {
+  position: absolute;
+  top: 128px;
+  left: 96px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 100;
+  position: relative;
+}
+
+.recipeContainer {
+  width: 80%;
+}
+
+.beerItem {
+  background: rgba(255, 255, 255, 0.5);
+  padding-top: 40px;
+  width: 44%;
+  height: 338px;
+  margin: 3%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.beerItem:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+  height: 0;
+}
+
+.innerBeerItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.recipeImg {
+  width: 100%;
+}
+
+.recipeName {
+  width: 55%;
+  display: inline-block;
+  font-size: 26px;
+  text-align: left;
+  margin-left: 22px;
+}
+
+a {
+  color: black;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.chooseBeer,
+.chooseMeal {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.beerButton,
+.mealButton {
+  margin-top: 20px;
+}
+
+/* Portrait tablet and small desktops */
+@media (max-width: 1200px) {
+  header h4 {
+    position: absolute;
+    width: 29%;
+    top: 268px;
+    left: 600px;
+  }
+
+  .startButton {
+    margin-left: 479px;
+  }
+}
+@media (max-width: 1180px) {
+  .startButton {
+    margin-left: 480px;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 1140px) {
+  header h4 {
+    left: 535px;
+  }
+
+  .startButton {
+    margin-left: 432px;
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 900px) {
+  header h4 {
+    font-size: 21px;
+  }
+
+  button {
+    padding: 9px;
+    font-size: 24px;
+  }
+
+  .firstBeer {
+    left: 81px;
+  }
+
+  .beerDiv {
+    width: 31.333%;
+  }
+
+  .mealDiv {
+    width: 33%;
+  }
+
+  .break {
+    width: 52%;
+    margin-top: 13px;
+  }
+
+  .firstMeal {
+    left: 23%;
+  }
+
+  .fourthMeal {
+    left: 94px;
+  }
+
+  .secondMeal, .thirdMeal {
+    left: 93px;
+  }
+
+  .dinner {
+    width: 54%;
+    margin-top: -1px;
+  }
+
+  .dessert {
+    width: 43%;
+    margin-top: 18px;
+  }
+}
+@media (max-width: 885px) {
+  .treasureBox {
+    margin-left: 4px;
+  }
+
+  header h4 {
+    left: 439px;
+  }
+
+  .startButton {
+    margin-left: 355px;
+  }
+}
+@media (max-width: 790px) {
+  .secondMeal,
+  .thirdMeal {
+    left: 80px;
+  }
+
+  .fourthMeal {
+    left: 77px;
+  }
+
+  .break {
+    margin-top: 11%;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .treasureBox {
+    margin-left: -6px;
+  }
+
+  header h4 {
+    left: 405px;
+  }
+
+  .startButton {
+    margin-left: 52%;
+  }
+}
+@media (max-width: 750px) {
+  .treasureBox {
+    margin-left: -7%;
+  }
+
+  header h4 {
+    left: 373px;
+  }
+
+  .startButton {
+    margin-left: 290px;
+    margin-top: 21px;
+  }
+}
+@media (max-width: 740px) {
+  .dessert {
+    margin-top: 22px;
+    width: 44%;
+  }
+}
+@media (max-width: 681px) {
+  header h4 {
+    top: 389px;
+  }
+
+  .treasureBox {
+    margin-left: -2%;
+  }
+}
+@media (max-width: 645px) {
+  .octPirate {
+    width: 254px;
+  }
+
+  header h4 {
+    left: 315px;
+  }
+
+  .startButton {
+    margin-left: 240px;
+    margin-top: 71px;
+  }
+}
+@media (max-width: 600px) {
+  .octPirate {
+    width: 258px;
+  }
+
+  header h4 {
+    position: static;
+    display: block;
+    margin: 0 auto;
+    width: 84%;
+    text-align: center;
+    margin-top: 23px;
+  }
+  header h4 span {
+    font-size: 33px;
+  }
+
+  .startButton {
+    margin-left: 143px;
+    margin-top: 22px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  .treasureBox {
+    margin-left: 17%;
+  }
+}
+/* Portrait tablet and small desktops */
+/* Landscape phones and down */
